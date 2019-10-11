@@ -16,7 +16,7 @@ function mes($n){
 	];
 	return $meses[$n-1];
 }
-//echo mes(11);
+echo mes(1);
 for($i=1;$i<13;$i++){
 	//echo mes($i).' - ';
 	if(strstr('meses',($i),'r'))
